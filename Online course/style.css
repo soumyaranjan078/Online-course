@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5e2;
+}
+#home{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    padding: 10px 20px;
+    background-color: #393c38;
+    color: #fff;
+}
+nav a {
+    color: #fcf5b7;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#head{
+    text-align: center;
+    background-color: rgb(247, 250, 253);
+    border-radius: 10px;
+    font-weight: 500;
+}
+.container{
+         margin: 15px auto;
+         padding: 0 10px;
+         max-width: 800px;
+}
+.catagory{
+    margin-left: 10px;
+    justify-content: center;
+}
+.courses{
+    display: flex;
+    grid-template-columns: repeat(auto=fill,minmax(200px, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+}
+.course{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+.course img:hover{
+    background-color: rgb(234, 188, 240);
+    color: #ccc;
+}
+.content{
+    text-align: center;
+    background-color: #cfe7d3;
+}
+#registrationform{
+    max-width: 700px;
+    margin: 0px;
+    padding: 40px;
+    border:2px solid#ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    background-color: #423f3f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border-radius: 5px;
+    cursor:pointer;
+}
+h2{
+    text-align: center;
+}
